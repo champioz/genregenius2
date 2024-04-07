@@ -4,7 +4,7 @@ import streamlit.components.v1 as components
 from streamlit_extras.stylable_container import stylable_container
 
     
-st.set_page_config(layout="wide")
+st.set_page_config(layout="wide", initial_sidebar_state="collapsed")
 if 'LABEL' not in st.session_state:
     st.session_state['LABEL'] = None
 

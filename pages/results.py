@@ -5,6 +5,16 @@ from streamlit_extras.stylable_container import stylable_container
 
     
 st.set_page_config(layout="wide", initial_sidebar_state="collapsed")
+st.markdown(
+    """
+<style>
+    [data-testid="collapsedControl"] {
+        display: none
+    }
+</style>
+""",
+    unsafe_allow_html=True,
+)
 
 if 'LABEL' not in st.session_state:
     st.switch_page('app.py')

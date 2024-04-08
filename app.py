@@ -4,18 +4,7 @@ import streamlit.components.v1 as components
 from streamlit_extras.stylable_container import stylable_container
 
     
-st.set_page_config(layout="wide", initial_sidebar_state="collapsed")
-st.markdown(
-    """
-<style>
-    [data-testid="collapsedControl"] {
-        display: none
-    }
-</style>
-""",
-    unsafe_allow_html=True,
-)
-
+st.set_page_config(layout="wide")
 if 'LABEL' not in st.session_state:
     st.session_state['LABEL'] = None
 
@@ -50,7 +39,7 @@ with col_main2:
     ''', unsafe_allow_html=True)
 
     if DESC:
-        LABEL = classify_input(DESC)
+        LABEL = 'g' + str(classify_input(DESC))
         st.session_state['LABEL'] = LABEL
         st.switch_page('./pages/results.py')
 

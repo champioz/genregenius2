@@ -4,10 +4,15 @@ import streamlit.components.v1 as components
 from streamlit_extras.stylable_container import stylable_container
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
+import path
+import sys
+
+dir = path.Path(__file__).abspath()
+sys.path.append(dir.parent.parent)
 
 def read_data(lab):
     
-    datasheet = pl.read_csv('../public/data/datasheet.csv')
+    datasheet = pl.read_csv('./public/data/datasheet.csv')
     label_desc = pl.read_csv('../public/data/label_desc.csv')
     sentences = pl.read_csv('../public/data/sentences.csv')
     timedata = pl.read_csv('../public/data/timedata.csv')
@@ -23,7 +28,7 @@ def read_data(lab):
     timedata = timedata.with_columns(
         pl.col('Month').str.to_date("%m/%d/%Y").dt.strftime("%b-%Y")
     )
-    timedata = timedata.pivot(values='Count', index=['Work', 'Month'], columns='Action')
+    timedata = timedata.pivot(values='Count', index=['Work', 'Month'], columns='Action', aggregate_function="sum")
     
     ratings = datasheet.rename({
     '1_rating':'1 Star',
@@ -119,7 +124,7 @@ with cols[2]:
     st.dataframe(sentences.select(['Sentences']), hide_index=True)
     st.write('<h4>Most Frequent Unique Words</h4>', unsafe_allow_html=True)
     text = ', '.join(words['Word'].to_list())
-    wordcloud = WordCloud(background_color="white", colormap="Purples", width=800, height=400).generate(text)
+    wordcloud = WordCloud(background_color="white", colormap="Purples_r", width=800, height=400).generate(text)
     fig, ax = plt.subplots()
     ax.imshow(wordcloud, interpolation='bilinear')
     ax.axis('off')

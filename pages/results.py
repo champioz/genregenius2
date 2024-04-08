@@ -7,11 +7,11 @@ import matplotlib.pyplot as plt
 
 def read_data(lab):
     
-    datasheet = pl.read_csv('./public/data/datasheet.csv')
-    label_desc = pl.read_csv('./public/data/label_desc.csv')
-    sentences = pl.read_csv('./public/data/sentences.csv')
-    timedata = pl.read_csv('./public/data/timedata.csv')
-    words = pl.read_csv('./public/data/words.csv')
+    datasheet = pl.read_csv('../public/data/datasheet.csv')
+    label_desc = pl.read_csv('../public/data/label_desc.csv')
+    sentences = pl.read_csv('../public/data/sentences.csv')
+    timedata = pl.read_csv('../public/data/timedata.csv')
+    words = pl.read_csv('../public/data/words.csv')
     
     datasheet = datasheet.filter(pl.col('Group') == lab)
     label_desc = label_desc.filter(pl.col('Group') == lab)

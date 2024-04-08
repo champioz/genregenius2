@@ -1,0 +1,39 @@
+﻿Group,Label,Description
+g0,Fantasy,"Speculative fiction involving magical elements, typically set in a fictional universe and usually inspired by mythology or folklore."
+g1,Romance,"Primary focuses on the relationship and romantic love between two people, typically with an emotionally satisfying and optimistic ending."
+g2,Action/Adventure fiction,"Action & adventure books contain a risk-filled journey and a thrilling series of action sequences. The threat of danger is ever-present, and the plot moves quickly. "
+g3,Childrens fiction,Children’s fiction includes made-up stories that are written specifically for children. They cover themes and language that are age-appropriate and can contain many different book genres and subgenres within the pages. 
+g4,Classic fiction,Classics are fictional books that have stood the test of time and are considered exceptional works of literature. Classic fiction is often used in academic discussions. 
+g5,Contemporary fiction,"Contemporary fiction stories are set in modern times and don’t contain any elements of fantasy (see below). These stories give the reader a window into a specific human experience. Some may be written for entertainment, and others may be written as political or social statements. "
+g6,Fantasy,"Books in the fantasy genre include supernatural or magical elements. These can be set on Earth, or in completely made-up worlds. A fantasy book series is not bound by the laws of science, physics, or even reality. "
+g7,Graphic novel,"Graphic novels are works that are highly illustrated, with a series of comic panels and speech bubbles to tell the story. Graphic novels aren’t limited in terms of scope and can be used to cover many different book genres in our list of genres. "
+g8,Historical fiction,These are fiction books that are inspired by real events in history but are not factual retellings. They allow readers to be transported into the past through the eyes of one or more characters.
+g9,Horror,"Horror is an increasingly popular book genre, with many subgenres nested under it. Horror stories are fictional works meant to disturb or frighten."
+g10,LGBTQ+,Any fiction book that places LGBTQ+ characters at the forefront is considered LGBTQ+ fiction. It can otherwise fall into a number of genres on this master list of book genres.
+g11,Literary fiction,Literary fiction is fiction writing that is considered highly valuable and artistic. These books often cover serious topics that make the reader stop and think. They can blend with many genres in this list of book genres. 
+g12,Mystery,Mystery books contain an event (often a murder or a crime) that remains a mystery until the end of the book. These page-turners keep you guessing and often feature big plot twists. 
+g13,New adult,New adult books are a newly developing genre of fiction with protagonists in the 18–29 age range. New adult fiction includes more adult themes and graphic sex scenes than young adult books but still focuses on story arcs about coming-of-age of finding identity.
+g14,Romance,Romance books turn some real profit for authors and center around would-be lovers and the obstacles they face in getting together.
+g15,Satire,"Satire books use humor and irony to poke fun at (or discredit) politics, systems of government, or societal norms."
+g16,Science fiction,"On our list of book genres, science fiction is most closely related to fantasy, with made-up worlds and species. But where science fiction and fantasy differ is that science and technology are at the root of science fiction stories. They still follow the laws of physics and possibility – not magic.  "
+g17,Short story,"Short stories are stories that are anywhere from 1,000 – 15,000 words in length, and they can be a mix of any topics on our list of genres."
+g18,Thriller,"A thriller often shares many attributes of mystery novels, but not all mysteries are thrillers, and not all thrillers are mysteries. So what differentiates these two items on our list of book genres?"
+g19,Western,"These books take place in the American Old West and feature plots with cattle ranches, bounty hunters, and shootouts. "
+g20,Womens fiction,Women’s fiction can cover a variety of topics on our list of book genres and refers to any book written about the female experience or the role of women in society
+g21,Young adult," young adult fiction can cover most topics on our list of book genres, but they are written for and about young adults, typically between ages 13-17. These books often cover coming-of-age story arcs and the trials of adolescence.  "
+g22,Art & photography,"Art and photography books can be written about art, or be more visual books that showcase art and photography. These make great coffee table books.  "
+g23,Autobiography/Memoir,Memoirs and autobiographies are written by the author about their own life. They focus on the author’s life trials and accomplishments. 
+g24,Biography,Memoirs and autobiographies are written by the author about their own life. They focus on the author’s life trials and accomplishments. 
+g25,Essays,"An essay is a short piece of writing where the author gives their thoughts (and often an argument) on a specific topic. They may be reflections and observations of the author, or a political statement. "
+g26,Food & drink,"Cookbooks can be simple collections of recipes, or contain information about the chef’s life or home country. They can cover food, beverages, or both. "
+g27,History,"Historical nonfiction is a well-researched, factual accounting of a historical event or time period. "
+g28,HowTo/Guides,"How-to books teach the reader how to get better at a craft, skill, or hobby, or give them an overview of all the information they need to know on a specific topic. "
+g29,Humanities & social sciences,"Books in the humanities study human society and relationships – and can include anthropology, sociology, politics, and many other subjects."
+g30,Humor,Humor books are written with one goal in mind – to make the reader laugh! They are often satirical essays or memoirs. 
+g31,Parenting,Parenting books teach parents how to raise their children – including how to prepare for their arrival!
+g32,Philosophy,"Philosophy nonfiction explores ethics, moral dilemmas, and the purpose of life on earth."
+g33,Religion & spirituality,"Books on religion and spirituality cover a range of topics, from actual religious texts like the Bible and the Quran to books on spiritual philosophies, mindfulness, and energy healing."
+g34,Science & technology,Science and technology books are written about the sciences – either to help readers have a greater understanding of them or to teach about the evolution of technology. 
+g35,Selfhelp,Self-help books cover topics from finances to organization to mental health and help readers improve themselves in some way. 
+g36,Travel,Travel books can be travel guides to various countries or memoirs of the author’s own travels.
+g37,True crime,True crime books describe actual crimes from start to finish.

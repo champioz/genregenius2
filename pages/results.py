@@ -48,7 +48,16 @@ def read_data(lab):
     return datasheet, label_desc, sentences, timedata, words, ratings
 
     
-st.set_page_config(layout="wide")
+st.set_page_config(layout="wide", initial_sidebar_state="collapsed")
+st.markdown(
+    """
+    <style>
+        [data-testid="collapsedControl"] {
+            display:none
+        }
+    </style>
+    """
+)
 
 if 'LABEL' not in st.session_state:
     st.switch_page('app.py')

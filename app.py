@@ -11,7 +11,8 @@ st.markdown(
             display:none
         }
     </style>
-    """
+    """,
+    unsafe_allow_html=True
 )
 if 'LABEL' not in st.session_state:
     st.session_state['LABEL'] = None

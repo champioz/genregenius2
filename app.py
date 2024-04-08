@@ -3,6 +3,7 @@ import streamlit as st
 import streamlit.components.v1 as components
 from streamlit_extras.stylable_container import stylable_container
 
+    
 st.set_page_config(layout="wide", initial_sidebar_state="collapsed")
 st.markdown(
     """
@@ -14,6 +15,7 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
 if 'LABEL' not in st.session_state:
     st.session_state['LABEL'] = None
 
@@ -81,6 +83,12 @@ with stylable_container(
         Mankiw's "Macroeconomics" is popular, widely adopted and well-known for clearly communicating the principles of Macroeconomics in a concise and accessible way. The sixth edition maintains the core features that have made it a best-selling Macroeconomics text - a balance of coverage between short and long-run issues, an integration of Keynesian and classical ideas, a variety of simple models and the incorporation of real world issues and data through case studies and FYI boxes.
         ''', language=None)
         st.write('-<em>Macroeconomics</em>, Manciw', unsafe_allow_html=True)
-        
+      
+      
+cols2 = st.columns([1, 6, 1])
 
+with cols2[1]:  
+
+    st.write("<br><br><br><em>Part of a project by Cyndi Campbell, Zach Champion, Paul Kim, and Thuy Nguyen at Georgia Tech</em>",
+            unsafe_allow_html=True)
 
